@@ -110,7 +110,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-gray-200 pt-6 text-sm text-gray-500 sm:flex-row">
-          <p>© {new Date().getFullYear()} TasteHome. All rights reserved.</p>
+          <p>© 2026 TasteHome. All rights reserved.</p>
           <ul className="flex gap-5">
             {LEGAL_LINKS.map((link) => (
               <li key={link.label}>
